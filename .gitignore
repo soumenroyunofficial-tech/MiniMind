@@ -1,0 +1,20 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Personal data
+memory.json
+*.log
+
+# Generated model files (keep locally; decide later whether to publish)
+model.npz
+model_metadata.json
+
+# Editor and operating-system files
+.vscode/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,16 @@
+
+Python is a popular programming language used for automation,
+data analysis, web development, and artificial intelligence.
+
+A Python variable stores a value. For example:
+name = "MiniMind"
+age = 1
+
+A function is a reusable block of code defined using the def keyword.
+Functions can accept arguments and return results.
+
+A list stores multiple items in a single variable.
+For example:
+numbers = [10, 20, 30]
+
+A Python dictionary stores information as key-value pairs.

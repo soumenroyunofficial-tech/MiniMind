@@ -1,0 +1,167 @@
+
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hello",
+        "hi",
+        "hey there",
+        "good morning",
+        "good evening",
+        "hello there",
+        "hi how are you",
+        "hey"
+      ],
+      "responses": [
+        "Hello! I'm MiniMind AI. How can I help?",
+        "Hi there! What would you like to discuss?",
+        "Hello! Nice to hear from you."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "goodbye",
+        "bye",
+        "see you later",
+        "talk to you later",
+        "I am leaving",
+        "bye for now",
+        "see you soon",
+        "catch you later"
+      ],
+      "responses": [
+        "Goodbye! Have a great day.",
+        "See you later!",
+        "Take care. Come back anytime."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thank you",
+        "thanks",
+        "thanks a lot",
+        "I appreciate your help",
+        "that was helpful",
+        "many thanks",
+        "thank you very much",
+        "great help"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help.",
+        "You're welcome. Keep learning!"
+      ]
+    },
+    {
+      "tag": "identity",
+      "patterns": [
+        "who are you",
+        "what are you",
+        "tell me about yourself",
+        "are you an AI",
+        "what is your name",
+        "introduce yourself",
+        "are you a robot",
+        "explain who you are"
+      ],
+      "responses": [
+        "I'm MiniMind, a small AI model trained locally.",
+        "I'm MiniMind AI, an experimental neural network.",
+        "I'm your offline AI assistant project."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "help me",
+        "I need help",
+        "can you help me",
+        "what can you do",
+        "I have a question",
+        "assist me please",
+        "I need some assistance",
+        "how can you help"
+      ],
+      "responses": [
+        "I'll try to help. Please tell me more.",
+        "What do you need assistance with?",
+        "I'm a small model, so I can answer only within my trained categories."
+      ]
+    },
+    {
+      "tag": "mood",
+      "patterns": [
+        "how are you",
+        "how are you doing",
+        "are you doing well",
+        "how is your day",
+        "are you okay",
+        "how do you feel",
+        "what is going on",
+        "how are things"
+      ],
+      "responses": [
+        "I'm running normally and ready to chat.",
+        "I'm doing well in the computational sense!",
+        "Thanks for asking. What is on your mind?"
+      ]
+    },
+    
+{
+  "tag": "programming",
+  "patterns": [
+    "what is python programming",
+    "explain a python variable",
+    "how do I learn coding",
+    "what is a programming language",
+    "teach me basic programming",
+    "what is a function in python",
+    "how does a loop work",
+    "explain programming concepts"
+  ],
+  "responses": [
+    "Python is a programming language used for AI, automation, data science, and more.",
+    "A variable stores a value that your program can use.",
+    "I can help with basic programming questions covered by my training data."
+  ]
+},
+{
+  "tag": "capabilities",
+  "patterns": [
+    "what are your limitations",
+    "can you answer every question",
+    "do you know everything",
+    "can you access the internet",
+    "do you work offline",
+    "how do you learn",
+    "can you understand any topic",
+    "what kind of questions can you answer"
+  ],
+  "responses": [
+    "I run locally and classify messages using patterns learned during training.",
+    "I work offline, but my current knowledge is limited to my training categories.",
+    "I can improve when you add useful training examples and retrain me."
+  ]
+},
+{
+  "tag": "arithmetic",
+  "patterns": [
+    "what is two plus two",
+    "calculate five plus three",
+    "what is ten minus four",
+    "what is three times four",
+    "what is twenty divided by five",
+    "help me with basic arithmetic",
+    "teach me simple mathematics",
+    "what is basic addition"
+  ],
+  "responses": [
+    "I can recognize some arithmetic-related questions, but I do not yet have a reliable calculation engine.",
+    "For accurate calculations, my next upgrade should include a local calculator."
+  ]
+}
+  ]
+}

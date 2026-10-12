@@ -1,0 +1,19 @@
+
+[
+  {
+    "text": "Could you teach me how to code?",
+    "expected_intent": "programming"
+  },
+  {
+    "text": "Are you able to run without Wi-Fi?",
+    "expected_intent": "capabilities"
+  },
+  {
+    "text": "How much is six times seven?",
+    "expected_intent": "arithmetic"
+  },
+  {
+    "text": "See you tomorrow",
+    "expected_intent": "goodbye"
+  }
+]

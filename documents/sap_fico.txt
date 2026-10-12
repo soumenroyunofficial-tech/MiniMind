@@ -1,0 +1,14 @@
+
+SAP FICO is a financial accounting and controlling module in SAP ERP.
+
+SAP FI stands for Financial Accounting. It supports general ledger
+accounting, accounts payable, accounts receivable, and asset accounting.
+
+SAP CO stands for Controlling. It supports cost centers, internal
+orders, cost analysis, and management accounting.
+
+A company code is an organizational unit used to represent an
+independent accounting entity in SAP.
+
+A chart of accounts is a structured list of general ledger accounts.
+A fiscal year variant defines the accounting periods for a fiscal year.
