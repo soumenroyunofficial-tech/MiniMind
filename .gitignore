@@ -1,20 +1,22 @@
-
-# Python
-__pycache__/
-*.py[cod]
+# Python environment and temporary files
 .venv/
 venv/
-.env
+__pycache__/
+*.py[cod]
 
-# Personal data
+# Secrets and personal data
+.env
+.env.*
+!.env.example
 memory.json
 *.log
 
-# Generated model files (keep locally; decide later whether to publish)
-model.npz
-model_metadata.json
-
-# Editor and operating-system files
+# Local development files
 .vscode/
 .DS_Store
 Thumbs.db
+wheelhouse/
+
+# Generated model files
+model.npz
+model_metadata.json
